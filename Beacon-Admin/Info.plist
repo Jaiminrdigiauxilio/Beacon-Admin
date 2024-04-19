@@ -21,5 +21,13 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>need bluetooth for beacon scanning</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>need bluetooth for beacon scanning and connection</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>need location for beacon monitoring</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>need location for beacon monitoring</string>
 </dict>
 </plist>

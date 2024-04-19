@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D65E73AD-4F92-4C2B-B12C-825D908E0FC9"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4102E7D5-C4E5-4249-9BC5-C1BC0E907C1C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Beacon-Admin/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "updateIBeacon()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4102E7D5-C4E5-4249-9BC5-C1BC0E907C1C - 88356bb9a554681c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.updateIBeacon() -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "4102E7D5-C4E5-4249-9BC5-C1BC0E907C1C - 88356bb9a55468f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.updateIBeacon() -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "624">
+               </Location>
+               <Location
+                  uuid = "4102E7D5-C4E5-4249-9BC5-C1BC0E907C1C - 88356bb9a554683b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.updateIBeacon() -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "4102E7D5-C4E5-4249-9BC5-C1BC0E907C1C - 88356bb9a554683b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.updateIBeacon() -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "484">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "046F582B-980A-4C9A-AC12-AAFE4B5BE65A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Beacon-Admin/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "updateIBeacon()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "046F582B-980A-4C9A-AC12-AAFE4B5BE65A - 88356bb9a55468f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.updateIBeacon() -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "624">
+               </Location>
+               <Location
+                  uuid = "046F582B-980A-4C9A-AC12-AAFE4B5BE65A - 88356bb9a5546898"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.updateIBeacon() -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "046F582B-980A-4C9A-AC12-AAFE4B5BE65A - 88356bb9a5546898"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.updateIBeacon() -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "624">
+               </Location>
+               <Location
+                  uuid = "046F582B-980A-4C9A-AC12-AAFE4B5BE65A - 88356bb9a55468f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.updateIBeacon() -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "516">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE2BEB34-FB7D-42AB-88E4-E40BBE63C9DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Beacon-Admin/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "updateIBeacon()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CE2BEB34-FB7D-42AB-88E4-E40BBE63C9DD - 88356bb9a5546bae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.updateIBeacon() -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "496">
+               </Location>
+               <Location
+                  uuid = "CE2BEB34-FB7D-42AB-88E4-E40BBE63C9DD - 88356bb9a5546bae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.updateIBeacon() -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "392">
+               </Location>
+               <Location
+                  uuid = "CE2BEB34-FB7D-42AB-88E4-E40BBE63C9DD - 88356bb9a5546b8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.updateIBeacon() -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "392">
+               </Location>
+               <Location
+                  uuid = "CE2BEB34-FB7D-42AB-88E4-E40BBE63C9DD - 88356bb9a5546a6c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.updateIBeacon() -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "353A0F1B-5091-4E7B-8500-DE6680FD9FFB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Beacon-Admin/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "onConnStateChange(_:state:evt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "353A0F1B-5091-4E7B-8500-DE6680FD9FFB - c9e9e05e2c653e7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.onConnStateChange(_: kbeaconlib2.KBeacon, state: kbeaconlib2.KBConnState, evt: kbeaconlib2.KBConnEvtReason) -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "780">
+               </Location>
+               <Location
+                  uuid = "353A0F1B-5091-4E7B-8500-DE6680FD9FFB - c9e9e05e2c653e7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.onConnStateChange(_: kbeaconlib2.KBeacon, state: kbeaconlib2.KBConnState, evt: kbeaconlib2.KBConnEvtReason) -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "656">
+               </Location>
+               <Location
+                  uuid = "353A0F1B-5091-4E7B-8500-DE6680FD9FFB - c9e9e05e2c653e5d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.onConnStateChange(_: kbeaconlib2.KBeacon, state: kbeaconlib2.KBConnState, evt: kbeaconlib2.KBConnEvtReason) -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "656">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "211E970A-668D-4B7D-8C72-0D269C73D084"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Beacon-Admin/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "onConnStateChange(_:state:evt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "211E970A-668D-4B7D-8C72-0D269C73D084 - c9e9e05e2c653ef8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.onConnStateChange(_: kbeaconlib2.KBeacon, state: kbeaconlib2.KBConnState, evt: kbeaconlib2.KBConnEvtReason) -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "540">
+               </Location>
+               <Location
+                  uuid = "211E970A-668D-4B7D-8C72-0D269C73D084 - c9e9e05e2c653ef8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.onConnStateChange(_: kbeaconlib2.KBeacon, state: kbeaconlib2.KBConnState, evt: kbeaconlib2.KBConnEvtReason) -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "211E970A-668D-4B7D-8C72-0D269C73D084 - c9e9e05e2c653ed9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Beacon_Admin.ViewController.onConnStateChange(_: kbeaconlib2.KBeacon, state: kbeaconlib2.KBConnState, evt: kbeaconlib2.KBConnEvtReason) -&gt; ()"
+                  moduleName = "Beacon-Admin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harsh/Developer/Jaimin/iOSProjects/Beacon-Admin/Beacon-Admin/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "440">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

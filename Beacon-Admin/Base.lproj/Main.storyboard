@@ -44,14 +44,34 @@
                                     <action selector="updateTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WC0-mk-PrD"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQk-z2-7uw">
+                                <rect key="frame" x="157" y="722" width="79" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Upload"/>
+                                <connections>
+                                    <action selector="uploadTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xVG-Ms-ndM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Z6-Kp-gr4">
+                                <rect key="frame" x="141" y="502" width="111" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Disconnect"/>
+                                <connections>
+                                    <action selector="disconnetTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vdb-57-pTZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
                         <outlet property="connectBtn" destination="teN-Lk-ho8" id="N6e-v4-60w"/>
+                        <outlet property="disconnectBtn" destination="6Z6-Kp-gr4" id="Eok-CH-pNe"/>
                         <outlet property="scanBtn" destination="XGr-8h-g2b" id="tBf-Ga-6pw"/>
                         <outlet property="updateBtn" destination="FES-wZ-LJ7" id="mY4-Kp-W1q"/>
+                        <outlet property="uploadBtn" destination="CQk-z2-7uw" id="JBX-Tc-GmL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

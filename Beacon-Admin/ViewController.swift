@@ -13,6 +13,9 @@ class ViewController: UIViewController, KBeaconMgrDelegate, ConnStateDelegate {
     @IBOutlet weak var scanBtn: UIButton!
     @IBOutlet weak var connectBtn: UIButton!
     @IBOutlet weak var updateBtn: UIButton!
+    @IBOutlet weak var disconnectBtn: UIButton!
+    @IBOutlet weak var uploadBtn: UIButton!
+    
     var beaconArr:[KBeacon] = []
     weak var beacon: KBeacon?
     var mBeaconsMgr: KBeaconsMgr?
@@ -46,13 +49,30 @@ class ViewController: UIViewController, KBeaconMgrDelegate, ConnStateDelegate {
         //  this line of code STOPS SCANNING
 //        mBeaconsMgr!.stopScanning()
         beacon = beaconArr[0]
-        self.beacon!.connect(beaconPwd, timeout: 15.0, delegate: self)
+//        self.beacon!.connect(beaconPwd, timeout: 15.0, delegate: self)
+        beacon?.connect(beaconPwd, timeout: 150.0, delegate: self)
+        debugPrint("-/-/-/-/-/-/-/Connected to \(String(describing: beacon?.name))")
 
     }
     
     @IBAction func updateTapped(_ sender: Any) {
+        updateIBeacon()
+    }
+    
+    
+    @IBAction func disconnetTapped(_ sender: Any) {
+        debugPrint("Disconnecting Beacon")
+        beacon?.disconnect()
         
     }
+    
+    
+    @IBAction func uploadTapped(_ sender: Any) {
+        
+        
+    }
+    
+    
     
     func onBeaconDiscovered(beacons: [kbeaconlib2.KBeacon]) {
         for beacon in beacons {
@@ -71,13 +91,16 @@ class ViewController: UIViewController, KBeaconMgrDelegate, ConnStateDelegate {
     }
     
     func onConnStateChange(_ beacon: kbeaconlib2.KBeacon, state: kbeaconlib2.KBConnState, evt: kbeaconlib2.KBConnEvtReason) {
+        
         if (state == KBConnState.Connecting)
-           {
-               debugPrint("-/-/-/-/-/Connecting to device");
+            {
+                updateBtn.isEnabled = true
+                debugPrint("-/-/-/-/-/Connecting to device");
            }
            else if (state == KBConnState.Connected)
            {
-               debugPrint("-/-/-/-/-/Device connected");
+                debugPrint("-/-/-/-/-/Device connected");
+//                updateBtn.isEnabled = true
 
            }
            else if (state == KBConnState.Disconnected)
@@ -90,6 +113,57 @@ class ViewController: UIViewController, KBeaconMgrDelegate, ConnStateDelegate {
                }
            }
     }
+    
+    func updateIBeacon(){
+//        if (self.beacon!.state != KBConnState.Connected)
+//            {
+//                print("beacon not connected")
+//                return;
+//            }
+        let iBeaconCfg = KBCfgAdvIBeacon()
+        iBeaconCfg.setSlotIndex(0)
+        //  modify ibeacon UUID using this code
+//            if let uuid = txtBeaconUUID.text,
+//               uuid.isUUIDString()
+//            {
+//                iBeaconCfg.setUuid(uuid)
+//            }
+//            else
+//            {
+//                self.showDialogMsg("error", message:"uuid format is invalid")
+//                return
+//            }
+
+        iBeaconCfg.setUuid(beacon?.uuidString ?? "000000000000000000")
+        //  old major & minor are : 10064 & 26049
+        //  modify ibeacon major id
+        iBeaconCfg.setMajorID(00000)
+        //  modify ibeacon major id
+        iBeaconCfg.setMinorID(12121)
+        iBeaconCfg.setAdvTriggerOnly(false)
+        iBeaconCfg.setAdvConnectable(true)
+        
+        beacon!.modifyConfig(obj: iBeaconCfg, callback: { (result, exception) in
+                if (result)
+                {
+                    debugPrint("config success")
+                }
+                else if (exception != nil)
+                {
+                    if (exception!.errorCode == KBErrorCode.CfgBusy)
+                    {
+                        debugPrint("Config busy, please make sure other configruation complete")
+                    }
+                    else if (exception!.errorCode == KBErrorCode.CfgTimeout)
+                    {
+                        debugPrint("Config timeout")
+                    }
+
+                    debugPrint("config other error:\(exception!.errorCode)")
+                }
+            })
+    }
+    
 
     func printScanPacket(_ advBeacon: KBeacon)
     {

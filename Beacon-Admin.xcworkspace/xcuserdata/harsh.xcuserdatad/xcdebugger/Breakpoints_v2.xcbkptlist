@@ -14,8 +14,8 @@
             filePath = "Beacon-Admin/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
             landmarkName = "updateIBeacon()"
             landmarkType = "7">
             <Locations>
@@ -92,8 +92,8 @@
             filePath = "Beacon-Admin/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "142"
-            endingLineNumber = "142"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
             landmarkName = "updateIBeacon()"
             landmarkType = "7">
             <Locations>
@@ -170,8 +170,8 @@
             filePath = "Beacon-Admin/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
             landmarkName = "updateIBeacon()"
             landmarkType = "7">
             <Locations>
@@ -248,8 +248,8 @@
             filePath = "Beacon-Admin/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
             landmarkName = "onConnStateChange(_:state:evt:)"
             landmarkType = "7">
             <Locations>
@@ -311,8 +311,8 @@
             filePath = "Beacon-Admin/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
             landmarkName = "onConnStateChange(_:state:evt:)"
             landmarkType = "7">
             <Locations>

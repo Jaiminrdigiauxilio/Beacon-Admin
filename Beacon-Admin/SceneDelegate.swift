@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Beacon-Admin
 //
-//  Created by Kiyaan M Singh on 11/04/24.
+//  Created by Jaimin Raval on 11/04/24.
 //
 
 import UIKit

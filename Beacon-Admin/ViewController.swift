@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Beacon-Admin
 //
-//  Created by Kiyaan M Singh on 11/04/24.
+//  Created by Jaimin Raval on 11/04/24.
 //
 
 import UIKit
@@ -25,6 +25,8 @@ class ViewController: UIViewController, KBeaconMgrDelegate, ConnStateDelegate {
         super.viewDidLoad()
         connectBtn.isEnabled = false;
         updateBtn.isEnabled = false;
+        disconnectBtn.isEnabled = false;
+        uploadBtn.isEnabled = false;
         mBeaconsMgr = KBeaconsMgr.sharedBeaconManager
         mBeaconsMgr!.delegate = self
     }
@@ -52,6 +54,7 @@ class ViewController: UIViewController, KBeaconMgrDelegate, ConnStateDelegate {
 //        self.beacon!.connect(beaconPwd, timeout: 15.0, delegate: self)
         beacon?.connect(beaconPwd, timeout: 150.0, delegate: self)
         debugPrint("-/-/-/-/-/-/-/Connected to \(String(describing: beacon?.name))")
+        disconnectBtn.isEnabled = true
 
     }
     
@@ -134,7 +137,7 @@ class ViewController: UIViewController, KBeaconMgrDelegate, ConnStateDelegate {
 //                return
 //            }
 
-        iBeaconCfg.setUuid(beacon?.uuidString ?? "000000000000000000")
+        iBeaconCfg.setUuid(beacon?.uuidString ?? "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0")
         //  old major & minor are : 10064 & 26049
         //  modify ibeacon major id
         iBeaconCfg.setMajorID(00000)

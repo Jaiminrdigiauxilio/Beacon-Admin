@@ -42,18 +42,27 @@ class ViewController: UIViewController, KBeaconMgrDelegate, ConnStateDelegate {
           else
           {
 //              NSLog("start scan failed");
-              debugPrint("Scan failed")
+              debugPrint("Scan start failed")
           }
         
     }
     
     @IBAction func connectTapple(_ sender: Any) {
+//        let scanResult = mBeaconsMgr!.startScanning()
+//        if (scanResult)
+//        {
+//            debugPrint("Scan stopped succesfully")
+//        }
+//        else
+//        {
+//            debugPrint("Scan stopped failed")
+//        }
         //  this line of code STOPS SCANNING
-//        mBeaconsMgr!.stopScanning()
+        mBeaconsMgr!.stopScanning()
         beacon = beaconArr[0]
 //        self.beacon!.connect(beaconPwd, timeout: 15.0, delegate: self)
         beacon?.connect(beaconPwd, timeout: 150.0, delegate: self)
-        debugPrint("-/-/-/-/-/-/-/Connected to \(String(describing: beacon?.name))")
+//        debugPrint("-/-/-/-/-/-/-/Connected to \(String(describing: beacon?.name))")
         disconnectBtn.isEnabled = true
 
     }
@@ -64,7 +73,7 @@ class ViewController: UIViewController, KBeaconMgrDelegate, ConnStateDelegate {
     
     
     @IBAction func disconnetTapped(_ sender: Any) {
-        debugPrint("Disconnecting Beacon")
+        debugPrint("-/-/-/-/-/Disconnecting Beacon")
         beacon?.disconnect()
         
     }
@@ -98,17 +107,17 @@ class ViewController: UIViewController, KBeaconMgrDelegate, ConnStateDelegate {
         if (state == KBConnState.Connecting)
             {
                 updateBtn.isEnabled = true
-                debugPrint("-/-/-/-/-/Connecting to device");
+                debugPrint("-/-/-/-/-/\\\\Connecting to device");
            }
            else if (state == KBConnState.Connected)
            {
-                debugPrint("-/-/-/-/-/Device connected");
+                debugPrint("-/-/-/-/-/\\\\Device connected");
 //                updateBtn.isEnabled = true
 
            }
            else if (state == KBConnState.Disconnected)
            {
-               debugPrint("-/-/-/-/-/Device disconnected");
+               debugPrint("-/-/-/-/-/\\\\Device disconnected");
                if (evt == KBConnEvtReason.ConnAuthFail)
                {
 //                   NSLog("auth failed");

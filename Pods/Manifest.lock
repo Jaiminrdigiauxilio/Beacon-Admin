@@ -1,16 +1,20 @@
 PODS:
+  - kbeaconlib (1.0.2)
   - kbeaconlib2 (1.1.6)
 
 DEPENDENCIES:
+  - kbeaconlib (= 1.0.2)
   - kbeaconlib2 (= 1.1.6)
 
 SPEC REPOS:
   trunk:
+    - kbeaconlib
     - kbeaconlib2
 
 SPEC CHECKSUMS:
+  kbeaconlib: 57ea8e48e1826d99f5702b4d98df0cd156e81f76
   kbeaconlib2: 8676c1b1626253f5cf6ab4b3c420cfff6be4ea18
 
-PODFILE CHECKSUM: 9a0f93754029b1d2c8986aff16ec3cd62dc8fe49
+PODFILE CHECKSUM: febc389c63fc6a717a571a7c91ceea440d6af97b
 
 COCOAPODS: 1.15.2

@@ -1,3 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-Beacon-Admin/Pods-Beacon-Admin-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/kbeaconlib/kbeaconlib.framework
-${BUILT_PRODUCTS_DIR}/kbeaconlib2/kbeaconlib2.framework

@@ -2,8 +2,8 @@
 platform :ios, '15.2'
 
 target 'Beacon-Admin' do
-  pod 'kbeaconlib2','1.1.6'
   pod 'kbeaconlib','1.0.2'
+  pod 'Alamofire'
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 

@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A0898BF2BD8EAC4009E5A75 /* OldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0898BE2BD8EAC4009E5A75 /* OldVC.swift */; };
+		3A33F3C42BEB4E7400D5D2FF /* BeaconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A33F3C32BEB4E7400D5D2FF /* BeaconCell.swift */; };
+		3A33F3C62BEB71D400D5D2FF /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A33F3C52BEB71D400D5D2FF /* ApiManager.swift */; };
+		3A33F3C82BEB794100D5D2FF /* IBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A33F3C72BEB794100D5D2FF /* IBeacon.swift */; };
 		3A6FCD612BC801B100C3C25F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FCD602BC801B100C3C25F /* AppDelegate.swift */; };
 		3A6FCD632BC801B100C3C25F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FCD622BC801B100C3C25F /* SceneDelegate.swift */; };
-		3A6FCD652BC801B100C3C25F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FCD642BC801B100C3C25F /* ViewController.swift */; };
+		3A6FCD652BC801B100C3C25F /* NewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6FCD642BC801B100C3C25F /* NewVC.swift */; };
 		3A6FCD682BC801B200C3C25F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6FCD662BC801B200C3C25F /* Main.storyboard */; };
 		3A6FCD6A2BC801B500C3C25F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6FCD692BC801B500C3C25F /* Assets.xcassets */; };
 		3A6FCD6D2BC801B500C3C25F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6FCD6B2BC801B500C3C25F /* LaunchScreen.storyboard */; };
@@ -18,10 +22,14 @@
 
 /* Begin PBXFileReference section */
 		05D8C97083B3D8E58E35C8C6 /* Pods-Beacon-Admin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Beacon-Admin.release.xcconfig"; path = "Target Support Files/Pods-Beacon-Admin/Pods-Beacon-Admin.release.xcconfig"; sourceTree = "<group>"; };
+		3A0898BE2BD8EAC4009E5A75 /* OldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldVC.swift; sourceTree = "<group>"; };
+		3A33F3C32BEB4E7400D5D2FF /* BeaconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconCell.swift; sourceTree = "<group>"; };
+		3A33F3C52BEB71D400D5D2FF /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		3A33F3C72BEB794100D5D2FF /* IBeacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBeacon.swift; sourceTree = "<group>"; };
 		3A6FCD5D2BC801B100C3C25F /* Beacon-Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beacon-Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A6FCD602BC801B100C3C25F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A6FCD622BC801B100C3C25F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A6FCD642BC801B100C3C25F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A6FCD642BC801B100C3C25F /* NewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVC.swift; sourceTree = "<group>"; };
 		3A6FCD672BC801B200C3C25F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A6FCD692BC801B500C3C25F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A6FCD6C2BC801B500C3C25F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,11 +73,15 @@
 			children = (
 				3A6FCD602BC801B100C3C25F /* AppDelegate.swift */,
 				3A6FCD622BC801B100C3C25F /* SceneDelegate.swift */,
-				3A6FCD642BC801B100C3C25F /* ViewController.swift */,
+				3A6FCD642BC801B100C3C25F /* NewVC.swift */,
+				3A0898BE2BD8EAC4009E5A75 /* OldVC.swift */,
 				3A6FCD662BC801B200C3C25F /* Main.storyboard */,
 				3A6FCD692BC801B500C3C25F /* Assets.xcassets */,
 				3A6FCD6B2BC801B500C3C25F /* LaunchScreen.storyboard */,
 				3A6FCD6E2BC801B500C3C25F /* Info.plist */,
+				3A33F3C32BEB4E7400D5D2FF /* BeaconCell.swift */,
+				3A33F3C52BEB71D400D5D2FF /* ApiManager.swift */,
+				3A33F3C72BEB794100D5D2FF /* IBeacon.swift */,
 			);
 			path = "Beacon-Admin";
 			sourceTree = "<group>";
@@ -206,8 +218,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A6FCD652BC801B100C3C25F /* ViewController.swift in Sources */,
+				3A33F3C82BEB794100D5D2FF /* IBeacon.swift in Sources */,
+				3A6FCD652BC801B100C3C25F /* NewVC.swift in Sources */,
 				3A6FCD612BC801B100C3C25F /* AppDelegate.swift in Sources */,
+				3A0898BF2BD8EAC4009E5A75 /* OldVC.swift in Sources */,
+				3A33F3C42BEB4E7400D5D2FF /* BeaconCell.swift in Sources */,
+				3A33F3C62BEB71D400D5D2FF /* ApiManager.swift in Sources */,
 				3A6FCD632BC801B100C3C25F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

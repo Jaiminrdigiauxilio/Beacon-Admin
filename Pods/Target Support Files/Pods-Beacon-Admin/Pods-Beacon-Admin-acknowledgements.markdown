@@ -1,9 +1,9 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## kbeaconlib
+## Alamofire
 
-Copyright (c) 2020 hogen <liushax@gmail.com>
+Copyright (c) 2014-2022 Alamofire Software Foundation (http://alamofire.org/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,9 +24,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## kbeaconlib2
+## kbeaconlib
 
-Copyright (c) 2021 liushax@gmail.com <liushax@gmail.com>
+Copyright (c) 2020 hogen <liushax@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

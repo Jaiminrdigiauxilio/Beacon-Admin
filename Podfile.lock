@@ -1,20 +1,20 @@
 PODS:
+  - Alamofire (5.9.1)
   - kbeaconlib (1.0.2)
-  - kbeaconlib2 (1.1.6)
 
 DEPENDENCIES:
+  - Alamofire
   - kbeaconlib (= 1.0.2)
-  - kbeaconlib2 (= 1.1.6)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - kbeaconlib
-    - kbeaconlib2
 
 SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
   kbeaconlib: 57ea8e48e1826d99f5702b4d98df0cd156e81f76
-  kbeaconlib2: 8676c1b1626253f5cf6ab4b3c420cfff6be4ea18
 
-PODFILE CHECKSUM: febc389c63fc6a717a571a7c91ceea440d6af97b
+PODFILE CHECKSUM: 9e406388077b9a1055598f9e4c849bf942549ad6
 
 COCOAPODS: 1.15.2
